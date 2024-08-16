@@ -3,3 +3,4 @@ apps/migrations
 pos/migrations
 pos/__pycache__
 penv
+staticfiles
