@@ -1,0 +1,5 @@
+apps/__pycache__
+apps/migrations
+pos/migrations
+pos/__pycache__
+penv
