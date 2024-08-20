@@ -7,7 +7,9 @@ from services.utils import role_required
 class Dashboard(View):
     context = ''
 
-
     def get(self, request, *args, **kwargs):
+        if (self.context == 'login'):
+            return render(request, 'login.html')
         if (self.context == 'dashboard'):
             return render(request, 'dashboard.html')
+
