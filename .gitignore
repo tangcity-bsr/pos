@@ -2,5 +2,8 @@ apps/__pycache__
 apps/migrations
 pos/migrations
 pos/__pycache__
+viewer/__pycache__
+services/__pycache__
 penv
 staticfiles
+updater.sh
